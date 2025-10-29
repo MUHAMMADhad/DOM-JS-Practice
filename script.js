@@ -28,4 +28,29 @@ document.body.firstElementChild.children[3].previousElementSibling // gives the 
 //     alert("You must be at least 18 years old to proceed.");
 // }
 
+// const button = document.getElementById("clickMe");
+// const message = document.getElementById("msg");
+
+// button.addEventListener("click", () => {
+//     message.textContent = "Button Clicked!";
+//     button.style.backgroundColor = "green";
+// });
+
+// const countBtn = document.getElementById("countBtn");
+// const count = document.getElementById("count");
+// const resetBtn = document.getElementById("resetBtn");
+// const change = document.getElementById("colorChange");
+
+// // Counting button functionality
+// let counter = 0;
+// countBtn.addEventListener("click", () => {
+//     counter++;
+//     count.textContent = counter;
+// });
+
+// // Reset button functionality
+// resetBtn.addEventListener("click", () => {
+//     counter = 0;
+//     count.textContent = counter;
+// });
 
