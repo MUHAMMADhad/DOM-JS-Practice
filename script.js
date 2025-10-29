@@ -54,3 +54,12 @@ document.body.firstElementChild.children[3].previousElementSibling // gives the 
 //     count.textContent = counter;
 // });
 
+// document.querySelector(".box").style.color = "cyan";
+// document.querySelectorAll(".box").forEach(e => {
+//     e.style.color = "cyan"
+// });
+// const collection = document.getElementsByClassName("box")
+// collection[2].style.backgroundColor = "green";
+
+
+
